@@ -5,15 +5,15 @@
 
 $(function() { 
   
-  var img_url = chrome.extension.getURL("tick.jpg");
+  var img_url = chrome.extension.getURL("tick.png");
 
   // Check if the user is logged in
   var login_text = jQuery('div.login-user').text();
 
-  if ( login_text == null)
+  if ( login_text == "")
   {
     // Not logged in.
-    exit(0);
+    return(0);
   }
 
   var user_link = jQuery('div.login-user a').attr('href');    // This link contains the necessary information.

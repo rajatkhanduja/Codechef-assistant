@@ -1,6 +1,6 @@
 {
   "name": "Codechef Assistant",
-  "version" : "0.5",
+  "version" : "0.7",
   "description" : "Assists Codechef user by marking questions that have already been attempted",
   "content_scripts": [
     {
