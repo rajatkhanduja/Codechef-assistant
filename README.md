@@ -18,5 +18,5 @@ For the 'doubtful', the source code is right in front of you ;)
 FIREFOX ALTERNATIVE
 ----------------------
 
-A GreaseMonkey script for the same can be found [here](http://userscripts.org/scripts/source/122939.user.js)
+A GreaseMonkey script for the same can be found [here](http://userscripts.org/scripts/show/122939)
 
