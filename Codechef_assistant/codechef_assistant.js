@@ -34,7 +34,7 @@ $(function() {
           }
         });
         // Appending a tick mark.
-        $('.problemrow a').each(function(){
+        $('.problems tr a').each(function(){
       	  link = $(this).attr('href');
           if (links_array.indexOf(link) != -1)
           {
