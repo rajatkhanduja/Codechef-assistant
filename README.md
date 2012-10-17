@@ -14,6 +14,8 @@ Chrome will ask for permission, authenticate to proceed with the installation.
 
 For the 'doubtful', the source code is right in front of you ;)
 
+Or simply download it from [Google Chrome Webstore](https://chrome.google.com/webstore/detail/codechef-assistant/bpogmmfjhmjfbgnnhohdcbcijfejidnc)
+
 
 FIREFOX ALTERNATIVE
 ----------------------
