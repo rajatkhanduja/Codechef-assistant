@@ -1,17 +1,20 @@
 {
-  "name": "Codechef Assistant",
-  "version" : "1.0",
-  "manifest_version" : 2,
-  "description" : "Assists Codechef user by marking questions that have already been attempted",
-  "content_scripts": [
-    {
-      "matches": ["http://*.codechef.com/problems/easy*",
-                   "http://*.codechef.com/problems/medium*",
-                   "http://*.codechef.com/problems/hard*",
-                   "http://*.codechef.com/problems/challenge*",
-                   "http://*.codechef.com/problems/extcontext*"
-                 ],
-      "js": ["jquery.js", "codechef_assistant.js"]
-    }
-  ]
+    "name": "Codechef Assistant",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Assists Codechef user by marking questions that have already been attempted",
+    "content_scripts": [
+        {
+            "matches": ["http://*.codechef.com/problems/easy*",
+                "http://*.codechef.com/problems/medium*",
+                "http://*.codechef.com/problems/hard*",
+                "http://*.codechef.com/problems/challenge*",
+                "http://*.codechef.com/problems/extcontext*"
+            ],
+            "js": ["jquery.js", "codechef_assistant.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "tick.png"
+    ]
 }
